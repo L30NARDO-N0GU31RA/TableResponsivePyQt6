@@ -1,0 +1,2 @@
+# TableResponsivePyQt6
+ 
