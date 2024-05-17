@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QTabBar::tab {
+background-color: #161616;
+color: white;                            
+padding: 5px;            
+							} 
+          
+QTabBar::tab:selected {                
+background-color: #161616;               
+color: white;                
+border: 1px solid white;            
+											}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #161616</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>15</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>15</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="cabecalho">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">COLOR: WHITE;
+FONT-SIZE: 20px;
+font-weight: bold;
+padding-left: 25px;
+border-bottom: 2px solid white;</string>
+      </property>
+      <property name="text">
+       <string>PEDIDOS</string>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignLeft">
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btn_emaberto">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">COLOR:  rgb(255, 255, 0);
+text-align: bottom;
+border: none;
+border-bottom: 1px solid  rgb(255, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string>EM ABERTO
+ 102</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_emproducao">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">COLOR: rgb(255, 165, 0);
+text-align: bottom;
+border: none;
+border-bottom: 1px solid  rgb(255, 165, 0);</string>
+         </property>
+         <property name="text">
+          <string>EM PRODUÇÃO
+102</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_emseparacao">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">COLOR: rgb(0, 0, 255);
+text-align: bottom;
+border: none;
+border-bottom: 1px solid rgb(0, 0, 255);</string>
+         </property>
+         <property name="text">
+          <string>EM SEPARAÇÃO
+102</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_em_transito">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">COLOR: rgb(0, 128, 0);
+text-align: bottom;
+border: none;
+border-bottom: 1px solid rgb(0, 128, 0);</string>
+         </property>
+         <property name="text">
+          <string>EM TRÂNSITO
+102</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_entregue">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">COLOR: rgb(0, 255, 0);
+text-align: bottom;
+border: none;
+border-bottom: 1px solid rgb(0, 255, 0);</string>
+         </property>
+         <property name="text">
+          <string>ENTREGUE
+102</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_cancelado">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">COLOR: rgb(192, 192, 192);
+text-align: bottom;
+border: none;
+border-bottom: 1px solid rgb(192, 192, 192);</string>
+         </property>
+         <property name="text">
+          <string>CANCELADO
+102</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tabela_pedidos">
+      <property name="styleSheet">
+       <string notr="true">QTableWidget{border: none;}
+QHeaderView::section{color: white;
+background-color: #161616;
+border: none;}</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>ID PEDIDO</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>LINHA DE MONTAGEM</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MODELO</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>QTT PRODUZIDA</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>STATUS</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

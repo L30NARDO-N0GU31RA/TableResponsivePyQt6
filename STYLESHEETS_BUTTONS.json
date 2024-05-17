@@ -1,0 +1,28 @@
+{
+    "buttons": [
+        {
+            "id_button": "btn_emaberto",
+            "style": "COLOR:  rgb(255, 255, 0);\ntext-align: bottom;\nborder: none;\nborder-bottom: 1px solid  rgb(255, 255, 0);"
+        },
+        {
+            "id_button": "btn_emproducao",
+            "style": "COLOR: rgb(255, 165, 0);\ntext-align: bottom;\nborder: none;\nborder-bottom: 1px solid  rgb(255, 165, 0);"
+        },
+        {
+            "id_button": "btn_emseparacao",
+            "style": "COLOR: rgb(0, 0, 255);\ntext-align: bottom;\nborder: none;\nborder-bottom: 1px solid rgb(0, 0, 255);;"
+        },
+        {
+            "id_button": "btn_em_transito",
+            "style": "COLOR: rgb(0, 255, 0);\ntext-align: bottom;\nborder: none;\nborder-bottom: 1px solid rgb(0, 255, 0);"
+        },
+        {
+            "id_button": "btn_entregue",
+            "style": "COLOR: rgb(0, 128, 0);\ntext-align: bottom;\nborder: none;\nborder-bottom: 1px solid rgb(0, 128, 0);"
+        },
+        {
+            "id_button": "btn_cancelado",
+            "style": "COLOR: rgb(192, 192, 192);\ntext-align: bottom;\nborder: none;\nborder-bottom: 1px solid rgb(192, 192, 192);"
+        }
+    ]
+}

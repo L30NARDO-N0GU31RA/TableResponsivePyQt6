@@ -1,0 +1,101 @@
+0,1,colori,37,em transito
+1,3,colori,11,entregue
+2,3,wordline,8,em separacao
+3,2,disegno,58,cancelado
+4,1,tradizionale,75,entregue
+5,2,wordline,78,em separacao
+6,1,tradizionale,43,em aberto
+7,3,stone,72,em separacao
+8,1,disegno,84,entregue
+9,3,stone,69,em transito
+10,3,stone,79,entregue
+11,1,disegno,85,em separacao
+12,3,wordline,90,em separacao
+13,1,colori,46,em aberto
+14,3,tradizionale,65,cancelado
+15,3,wordline,60,cancelado
+16,2,colori,14,em transito
+17,1,stone,48,em producao
+18,2,colori,95,em aberto
+19,1,stone,51,entregue
+20,3,colori,13,em aberto
+21,1,disegno,44,em transito
+22,3,disegno,46,cancelado
+23,3,stone,97,em transito
+24,2,colori,92,entregue
+25,1,wordline,84,entregue
+26,1,wordline,69,em separacao
+27,1,tradizionale,28,em transito
+28,1,tradizionale,1,em producao
+29,1,stone,79,em separacao
+30,1,disegno,74,em separacao
+31,1,disegno,26,entregue
+32,1,stone,51,cancelado
+33,3,stone,96,em transito
+34,1,colori,52,em producao
+35,1,stone,13,em separacao
+36,2,stone,54,em aberto
+37,3,wordline,21,em aberto
+38,1,disegno,30,em aberto
+39,1,colori,42,em transito
+40,2,wordline,22,em aberto
+41,1,wordline,43,em separacao
+42,3,wordline,84,entregue
+43,3,wordline,83,em separacao
+44,3,wordline,75,em producao
+45,3,disegno,30,em aberto
+46,1,wordline,45,entregue
+47,1,wordline,90,em aberto
+48,2,disegno,67,entregue
+49,1,colori,95,em producao
+50,3,tradizionale,67,em producao
+51,1,tradizionale,95,em separacao
+52,3,tradizionale,12,em transito
+53,3,wordline,77,em transito
+54,3,tradizionale,88,em separacao
+55,2,tradizionale,24,em aberto
+56,3,wordline,74,entregue
+57,3,tradizionale,69,cancelado
+58,2,disegno,34,cancelado
+59,1,wordline,13,em transito
+60,3,tradizionale,27,em aberto
+61,1,stone,29,cancelado
+62,1,stone,47,cancelado
+63,3,wordline,46,entregue
+64,1,stone,35,em transito
+65,3,wordline,31,em separacao
+66,3,stone,51,em producao
+67,3,colori,44,em transito
+68,2,disegno,87,em separacao
+69,1,stone,55,entregue
+70,3,tradizionale,52,em producao
+71,1,disegno,71,em transito
+72,2,stone,11,em aberto
+73,3,colori,6,entregue
+74,1,colori,15,em producao
+75,3,tradizionale,38,em separacao
+76,1,colori,98,em producao
+77,3,disegno,59,entregue
+78,1,tradizionale,6,em separacao
+79,3,colori,63,em producao
+80,3,wordline,54,em separacao
+81,2,disegno,15,cancelado
+82,2,tradizionale,94,cancelado
+83,1,tradizionale,18,entregue
+84,2,tradizionale,83,entregue
+85,1,wordline,86,cancelado
+86,1,wordline,53,entregue
+87,2,stone,38,em separacao
+88,3,tradizionale,30,em transito
+89,1,wordline,48,em aberto
+90,1,tradizionale,64,em producao
+91,3,stone,73,em separacao
+92,2,wordline,1,em aberto
+93,2,wordline,36,entregue
+94,2,disegno,74,em producao
+95,3,colori,42,em aberto
+96,2,stone,23,cancelado
+97,3,tradizionale,3,em transito
+98,3,disegno,35,entregue
+99,3,wordline,63,em separacao
+100,3,tradizionale,88,entregue
